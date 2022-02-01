@@ -121,3 +121,61 @@ opacity: 0.8;
     
 
 }
+.aws{
+    line-height: 28.8px;
+    background-color: #282e34;
+    background-position: 0px 0px;
+    color:#f1f1f1;
+    height: 142px;
+    width: 100%;
+    text-align: center;
+    padding: 48px 80px;
+    display: block;
+}
+.header__aws{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    height: 29px;
+    width: 100%;
+    margin: 20px 0px;
+    display: block;
+}
+.background--3{
+    background-image: url(./images/team.jpg);
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 775px;
+    min-height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.aws__logo{
+    width: 100%;
+    text-align: center;
+}
+.aws__logo p{
+    font-size: 48px;
+    letter-spacing: 8px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #000000;
+    color: #f1f1f1;
+    width: auto;
+    height: auto;
+    padding: 11px;
+    display: inline;
+    margin: auto;
+    outline: 0.5rem inset rgb(214, 100, 214);
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    outline-offset: 3px;
+}
+.aws__logo p:hover{
+    outline: rgb(255,0,0) dashed 1px;
+}
