@@ -23,7 +23,10 @@ text-decoration: none solid rgb(102,102,102);
 word-spacing: 0;
 opacity: 0.9;
 }
-
+.header{
+    text-align: center;
+    margin: auto;
+}
 .header__h1{
 letter-spacing: 8px;
 font-size: 48px;
@@ -54,9 +57,9 @@ opacity: 0.8;
     font-size: 16px;
     line-height: 28.8px;
     text-decoration: none solid rgb(102,102,102);
-    text-align: center;
     width: 100%;
     height: 171px;
+    margin: auto;
     padding: 48px 80px;
     text-align: center;
     word-spacing: 0;
@@ -74,7 +77,7 @@ opacity: 0.8;
     text-align: center;
     color: #666666;
     height: 29px;
-    width: 100%;
+    width: 1743px;
     margin: 20px 0px;
     display: block;
 }
@@ -84,7 +87,7 @@ opacity: 0.8;
     text-align: center;
     color: #666666;
     height: 86px;
-    width: 100%;
+    width: 1743px;
     margin: 16px 0px;
     display: block;
 
@@ -142,6 +145,9 @@ opacity: 0.8;
     margin: 20px 0px;
     display: block;
 }
+.aws p{
+    width: 1743px;
+}
 .background--3{
     background-image: url(./images/team.jpg);
     background-position: center ;
@@ -180,46 +186,38 @@ opacity: 0.8;
     outline: rgb(255,0,0) dashed 1px;
 }
 .section__ds{
-    font-size: 16px;
+    
     line-height: 28.8px;
-    text-decoration: none solid rgb(102,102,102);
-    text-align: center;
-    word-spacing: 0px;
-    background-color: #f1f1f1;
-    height: 198px;
-    width: 100%;
-    padding: 48px 80px;
-    display: flex;
-}
-.header__ds{
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28.8px;
-    text-align: center;
-    word-spacing: 0px;
-    background-color: #f1f1f1;
+    background-color: #F1F1F1;
+    background-position: 0% 0%;
     color: #666666;
-    height: 29px;
+    height: 142px;
     width: 100%;
-    margin: 20px 0px;
-    padding: 20px;
-    min-height: auto;
-    min-width: auto;
+    text-align: center;
+    padding: 48px 80px;
     display: block;
 
 }
-.section__ds--text{
-    font-size: 16px;
+.header__ds{
+    
+    font-size: 24px;
     line-height: 28.8px;
+    font-weight: 700;
+    margin: 20px 0px;
     text-align: center;
-    word-spacing: 0px;
-    color: #666666;
-    height: 58px;
+    height: 28px;
     width: 100%;
-    margin: 16px 0px;
-    min-height: auto;
-    min-width: auto;
-    display: block;
+    color: #666666;
+
+
+}
+.section__ds--text{
+    
+    text-align: center;
+    height:57px;
+    width: 1743px;
+    color: #666666;
+
 
 }
 .background--4{
@@ -263,85 +261,92 @@ opacity: 0.8;
     outline: rgb(255,0,0) dashed 1px;
 }
 .section__why{
-    font-size: 16px;
-    line-height: 28.8px;
     text-align: center;
-    word-spacing: 0px;
     background-color: #282e34;
     color: #dddddd;
-    height: 227px;
-    width: 100%;
+    height: 171px;
     padding: 48px 80px;
-    display: flex;
+    display: block;
+    
+
 }
 .header__why{
     font-size: 24px;
-    font-weight: 700;
-    line-height: 28.8px;
-    text-align: center;
-    word-spacing: 0px;
-    justify-content: center;
-    align-items: center;
-    color: #dddddd;
-    height: 29px;
-    width: 100%;
+    letter-spacing: 8px;
+    line-height: 28px;
     margin: 20px 0px;
-    min-height: auto;
-    min-width: auto;
-    display: block;
+    padding: 20px;
+    font-weight: 700;
+    
 
 }
 .section__why--text{
     font-size: 16px;
-    line-height: 28.8px;
     text-align: center;
     color: #dddddd;
-    height: 87px;
-    width: 100%;
+    line-height: 28px;
+    height: 86px;
+    width: 1743px;
     margin: 16px 0px;
-    min-height: auto;
-    min-width: auto;
-    display: block;
-    justify-content: center;
-    align-items: center;
+    
 }
 .background--5{
     background-image: url(./images/bg.jpg);
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    height: 910px;
-    width: 100%;
-    min-height: 100%;
     display: flex;
-    text-align: center;
     justify-content: center;
-    align-items: center;
-    opacity: 0.7;
+    align-items:center ;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #666666;
+    line-height: 28.8px;
+    text-decoration: none solid rgb(102,102,102);
+    word-spacing: 0;
+    opacity: 0.8;
 }
-.why__logo{
-    text-align: center;
-}
-.why__logo p{
+.why__logo p {
     font-size: 48px;
-    letter-spacing: 8px;
-    line-height: 48px;
-    text-align: center;
-    text-decoration: none solid rgb(255,255,255);
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.7);
+    background-position: 50% 50%;
     color: #ffffff;
-    height: 48px;
-    width: 100%;
-    margin: 40px 0px;
+    text-decoration: none solid rgb(255,255,255);
+    text-align: center;
+    line-height: 80px;
     padding: 32px;
-    min-height: auto;
-    min-width: auto;
-    display: block;
+    display: inline;
     outline-offset: 16px;
     border-top-left-radius: 32px;
-    border-bottom-right-radius: 32px;
-    outline: 0.5rem inset rgb(214, 100, 214);
+    border-bottom-right-radius:32px ;
+    outline: 0.5rem inset rgb(192,105,192);
+    transform: none;
+    transition: all 0s ease 0s;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    word-spacing: 0;
+    width: auto;
+    height: auto;
+    
 }
+
 .why__logo p:hover{
     outline: rgb(255,0,0) dashed 1px;
+}  
+@media screen and (max-width:1743px){
+    .header__fs{
+        width: 100%;
+    }
+    .section__fs--text{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1500px){
+    .header__fs{
+        width: 80%;
+    }
+    .section__fs--text{
+        width: 80%;
+    }
 }
