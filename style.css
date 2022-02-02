@@ -153,7 +153,7 @@ opacity: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    opacity: 0.7;
 }
 .aws__logo{
     width: 100%;
@@ -177,5 +177,171 @@ opacity: 0.8;
     outline-offset: 3px;
 }
 .aws__logo p:hover{
+    outline: rgb(255,0,0) dashed 1px;
+}
+.section__ds{
+    font-size: 16px;
+    line-height: 28.8px;
+    text-decoration: none solid rgb(102,102,102);
+    text-align: center;
+    word-spacing: 0px;
+    background-color: #f1f1f1;
+    height: 198px;
+    width: 100%;
+    padding: 48px 80px;
+    display: flex;
+}
+.header__ds{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    word-spacing: 0px;
+    background-color: #f1f1f1;
+    color: #666666;
+    height: 29px;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 20px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+
+}
+.section__ds--text{
+    font-size: 16px;
+    line-height: 28.8px;
+    text-align: center;
+    word-spacing: 0px;
+    color: #666666;
+    height: 58px;
+    width: 100%;
+    margin: 16px 0px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+
+}
+.background--4{
+    background-image: url(./images/man.jpg);
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 775px;
+    min-height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+
+}
+.ds__logo{
+    
+    text-align: center;
+}
+.ds__logo p{
+    font-size: 48px;
+    letter-spacing: 8px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    height: 48px;
+    width: 100%;
+    margin: 40px 0px;
+    padding: 11px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+    outline-offset: 3.2px;
+    border-top-left-radius: 11.2px;
+    border-bottom-right-radius: 11.2px;
+    outline: 0.5rem inset rgb(214, 100, 214);
+}
+.ds__logo p:hover{
+    outline: rgb(255,0,0) dashed 1px;
+}
+.section__why{
+    font-size: 16px;
+    line-height: 28.8px;
+    text-align: center;
+    word-spacing: 0px;
+    background-color: #282e34;
+    color: #dddddd;
+    height: 227px;
+    width: 100%;
+    padding: 48px 80px;
+    display: flex;
+}
+.header__why{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    word-spacing: 0px;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+    height: 29px;
+    width: 100%;
+    margin: 20px 0px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+
+}
+.section__why--text{
+    font-size: 16px;
+    line-height: 28.8px;
+    text-align: center;
+    color: #dddddd;
+    height: 87px;
+    width: 100%;
+    margin: 16px 0px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.background--5{
+    background-image: url(./images/bg.jpg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 910px;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+.why__logo{
+    text-align: center;
+}
+.why__logo p{
+    font-size: 48px;
+    letter-spacing: 8px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none solid rgb(255,255,255);
+    background-color: #000000;
+    color: #ffffff;
+    height: 48px;
+    width: 100%;
+    margin: 40px 0px;
+    padding: 32px;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+    outline-offset: 16px;
+    border-top-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    outline: 0.5rem inset rgb(214, 100, 214);
+}
+.why__logo p:hover{
     outline: rgb(255,0,0) dashed 1px;
 }
